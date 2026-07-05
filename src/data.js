@@ -1,3 +1,9 @@
+import profileImg from './assets/profile.jpg'
+import rhymeImg from './assets/rhyme_video_builder.jpg'
+import builditImg from './assets/buildit.webp'
+import medicImg from './assets/medic_1.jpg'
+import syncteImg from './assets/synte.jpg'
+
 const withBase = (path) => import.meta.env.BASE_URL + path.replace(/^\//, '')
 
 export const profile = {
@@ -9,7 +15,7 @@ export const profile = {
   phone: '+91 63834 81417',
   website: 'https://dharshiniduraisamy.framer.website',
   resumeUrl: withBase('/resume.pdf'),
-  avatar: withBase('/assets/profile/avatar.svg'),
+  avatar: profileImg,
   socials: {
     linkedin: 'https://linkedin.com/in/dharshini-duraisamy-313768224',
     github: 'https://github.com/DharshiniDuraisamy03',
@@ -116,28 +122,28 @@ export const projects = [
     description: 'Full-stack AI application that generates personalized nursery rhyme videos using Gemini, with a resilient multi-provider TTS pipeline and server-side video rendering.',
     tech: ['React 19', 'Node.js', 'Express.js', 'Gemini API', 'Azure Cognitive Services', 'FFmpeg', 'GCS', 'Docker'],
     link: 'https://rhyme-app-201324446023.us-central1.run.app/',
-    image: withBase('/assets/projects/rhyme.svg'),
+    image: rhymeImg,
   },
   {
     name: 'Buildit',
     description: 'Responsive full-stack application for construction project management with secure backend APIs and user-friendly interfaces.',
     tech: ['Full Stack'],
     link: 'https://dharshiniduraisamy03.github.io/Buildit/home',
-    image: withBase('/assets/projects/buildit.svg'),
+    image: builditImg,
   },
   {
     name: 'Medic',
     description: 'Frontend application for patient registration with client-side persistence and multi-tab synchronization.',
     tech: ['Frontend'],
     link: 'https://dharshiniduraisamy03.github.io/Medic/#/home',
-    image: withBase('/assets/projects/medic.svg'),
+    image: medicImg,
   },
   {
     name: 'Syncte',
     description: 'Full-stack employee management application featuring scalable backend services and responsive frontend components.',
     tech: ['Full Stack'],
     link: 'https://dharshiniduraisamy03.github.io/Sync/',
-    image: withBase('/assets/projects/syncte.svg'),
+    image: syncteImg,
   },
 ]
 
