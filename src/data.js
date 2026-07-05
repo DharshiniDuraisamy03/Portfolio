@@ -1,3 +1,5 @@
+const withBase = (path) => import.meta.env.BASE_URL + path.replace(/^\//, '')
+
 export const profile = {
   name: 'Dharshini Duraisamy',
   roles: ['Software Engineer', 'Full Stack Engineer', 'AI Engineer'],
@@ -6,8 +8,8 @@ export const profile = {
   email: 'dharshiniduraisamy2801@gmail.com',
   phone: '+91 63834 81417',
   website: 'https://dharshiniduraisamy.framer.website',
-  resumeUrl: '/resume.pdf',
-  avatar: '/assets/profile/avatar.svg',
+  resumeUrl: withBase('/resume.pdf'),
+  avatar: withBase('/assets/profile/avatar.svg'),
   socials: {
     linkedin: 'https://linkedin.com/in/dharshini-duraisamy-313768224',
     github: 'https://github.com/DharshiniDuraisamy03',
@@ -17,42 +19,42 @@ export const profile = {
 export const skillGroups = [
   {
     category: 'Languages',
-    icon: '/assets/skills/languages.svg',
+    icon: withBase('/assets/skills/languages.svg'),
     items: ['TypeScript', 'JavaScript (ES6+)', 'SQL', 'Java', 'HTML5', 'CSS3'],
   },
   {
     category: 'Frontend',
-    icon: '/assets/skills/frontend.svg',
+    icon: withBase('/assets/skills/frontend.svg'),
     items: ['React.js', 'Vite', 'TanStack Query', 'TanStack Router', 'Redux', 'Tailwind CSS', 'React Flow', 'Lexical', 'Storybook'],
   },
   {
     category: 'Backend',
-    icon: '/assets/skills/backend.svg',
+    icon: withBase('/assets/skills/backend.svg'),
     items: ['Node.js', 'Express.js', 'REST APIs', 'Microservices', 'WebSockets', 'Swagger/OpenAPI'],
   },
   {
     category: 'AI & Data',
-    icon: '/assets/skills/ai-data.svg',
+    icon: withBase('/assets/skills/ai-data.svg'),
     items: ['LLMs (Gemini, OpenAI, Claude)', 'Agentic AI', 'Prompt Engineering', 'RAG', 'Pinecone', 'ChromaDB', 'Langfuse', 'Semantic Search', 'Vector Embeddings'],
   },
   {
     category: 'Databases',
-    icon: '/assets/skills/databases.svg',
+    icon: withBase('/assets/skills/databases.svg'),
     items: ['MySQL', 'Redis', 'Pinecone', 'ChromaDB'],
   },
   {
     category: 'Cloud & DevOps',
-    icon: '/assets/skills/cloud-devops.svg',
+    icon: withBase('/assets/skills/cloud-devops.svg'),
     items: ['Docker', 'BullMQ', 'Git', 'GitHub Actions', 'TurboRepo', 'AWS', 'GCP', 'Firebase', 'Google Cloud Run'],
   },
   {
     category: 'Integrations & Platforms',
-    icon: '/assets/skills/integrations.svg',
+    icon: withBase('/assets/skills/integrations.svg'),
     items: ['Composio', 'CRM Systems', 'HubSpot'],
   },
   {
     category: 'Tools',
-    icon: '/assets/skills/tools.svg',
+    icon: withBase('/assets/skills/tools.svg'),
     items: ['Puppeteer', 'BrightData', 'Cheerio', 'Turndown', 'FFmpeg', 'Google Cloud Storage', 'Postman', 'NewRelic Logging Library'],
   },
 ]
@@ -60,7 +62,7 @@ export const skillGroups = [
 export const experience = [
   {
     company: 'Nagent AI',
-    logo: '/assets/logos/nagent.svg',
+    logo: withBase('/assets/logos/nagent.svg'),
     role: 'Software Engineer',
     period: '06/2025 — Present',
     subProjects: [
@@ -94,7 +96,7 @@ export const experience = [
   },
   {
     company: 'Palo Alto Networks',
-    logo: '/assets/logos/palo-alto-networks.svg',
+    logo: withBase('/assets/logos/palo-alto-networks.svg'),
     role: 'Software Engineer',
     period: '07/2023 — 06/2025',
     points: [
@@ -114,28 +116,28 @@ export const projects = [
     description: 'Full-stack AI application that generates personalized nursery rhyme videos using Gemini, with a resilient multi-provider TTS pipeline and server-side video rendering.',
     tech: ['React 19', 'Node.js', 'Express.js', 'Gemini API', 'Azure Cognitive Services', 'FFmpeg', 'GCS', 'Docker'],
     link: 'https://rhyme-app-201324446023.us-central1.run.app/',
-    image: '/assets/projects/rhyme.svg',
+    image: withBase('/assets/projects/rhyme.svg'),
   },
   {
     name: 'Buildit',
     description: 'Responsive full-stack application for construction project management with secure backend APIs and user-friendly interfaces.',
     tech: ['Full Stack'],
     link: 'https://dharshiniduraisamy03.github.io/Buildit/home',
-    image: '/assets/projects/buildit.svg',
+    image: withBase('/assets/projects/buildit.svg'),
   },
   {
     name: 'Medic',
     description: 'Frontend application for patient registration with client-side persistence and multi-tab synchronization.',
     tech: ['Frontend'],
     link: 'https://dharshiniduraisamy03.github.io/Medic/#/home',
-    image: '/assets/projects/medic.svg',
+    image: withBase('/assets/projects/medic.svg'),
   },
   {
     name: 'Syncte',
     description: 'Full-stack employee management application featuring scalable backend services and responsive frontend components.',
     tech: ['Full Stack'],
     link: 'https://dharshiniduraisamy03.github.io/Sync/',
-    image: '/assets/projects/syncte.svg',
+    image: withBase('/assets/projects/syncte.svg'),
   },
 ]
 
