@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <defs>
+    <linearGradient id="medic-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3d33"/>
+      <stop offset="100%" stop-color="#0d1512"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="300" rx="18" fill="url(#medic-bg)"/>
+  <circle cx="420" cy="240" r="120" fill="#2dd4bf" opacity="0.12"/>
+  <rect x="24" y="22" width="432" height="30" rx="8" fill="#ffffff" opacity="0.04"/>
+  <circle cx="40" cy="37" r="5" fill="#ff6b6b" opacity="0.6"/>
+  <circle cx="58" cy="37" r="5" fill="#ffd93d" opacity="0.6"/>
+  <circle cx="76" cy="37" r="5" fill="#6bcB77" opacity="0.6"/>
+  <g transform="translate(190,100)">
+    <circle cx="50" cy="50" r="50" fill="#134e4a" opacity="0.9"/>
+    <rect x="40" y="22" width="20" height="56" rx="4" fill="#2dd4bf"/>
+    <rect x="22" y="40" width="56" height="20" rx="4" fill="#2dd4bf"/>
+  </g>
+  <rect x="60" y="220" width="130" height="10" rx="5" fill="#ffffff" opacity="0.15"/>
+  <rect x="60" y="240" width="190" height="8" rx="4" fill="#ffffff" opacity="0.08"/>
+  <rect x="300" y="220" width="120" height="10" rx="5" fill="#ffffff" opacity="0.1"/>
+</svg>

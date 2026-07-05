@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <defs>
+    <linearGradient id="sync-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#132a4d"/>
+      <stop offset="100%" stop-color="#0d1219"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="300" rx="18" fill="url(#sync-bg)"/>
+  <circle cx="80" cy="60" r="120" fill="#3b82f6" opacity="0.12"/>
+  <rect x="24" y="22" width="432" height="30" rx="8" fill="#ffffff" opacity="0.04"/>
+  <circle cx="40" cy="37" r="5" fill="#ff6b6b" opacity="0.6"/>
+  <circle cx="58" cy="37" r="5" fill="#ffd93d" opacity="0.6"/>
+  <circle cx="76" cy="37" r="5" fill="#6bcB77" opacity="0.6"/>
+  <g transform="translate(170,110)">
+    <circle cx="30" cy="30" r="26" fill="#3b82f6" opacity="0.85"/>
+    <circle cx="110" cy="30" r="26" fill="#60a5fa" opacity="0.85"/>
+    <circle cx="70" cy="80" r="26" fill="#93c5fd" opacity="0.85"/>
+    <line x1="30" y1="30" x2="110" y2="30" stroke="#ffffff" stroke-opacity="0.25" stroke-width="3"/>
+    <line x1="30" y1="30" x2="70" y2="80" stroke="#ffffff" stroke-opacity="0.25" stroke-width="3"/>
+    <line x1="110" y1="30" x2="70" y2="80" stroke="#ffffff" stroke-opacity="0.25" stroke-width="3"/>
+  </g>
+  <rect x="60" y="230" width="140" height="10" rx="5" fill="#ffffff" opacity="0.15"/>
+  <rect x="60" y="250" width="200" height="8" rx="4" fill="#ffffff" opacity="0.08"/>
+</svg>
