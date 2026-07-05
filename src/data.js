@@ -14,7 +14,7 @@ export const profile = {
   email: 'dharshiniduraisamy2801@gmail.com',
   phone: '+91 63834 81417',
   website: 'https://dharshiniduraisamy.framer.website',
-  resumeUrl: withBase('/resume.pdf'),
+  resumeUrl: 'https://drive.google.com/uc?export=download&id=1RqNZlSM0yuF5oiDBx2DtaoIMxo70LM6Q',
   avatar: profileImg,
   socials: {
     linkedin: 'https://linkedin.com/in/dharshini-duraisamy-313768224',
